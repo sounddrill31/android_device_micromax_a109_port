@@ -5,4 +5,10 @@
     "target_path": "vendor/omni",
     "revision":"android-9.0"
   }
+  {
+    "remote": "sounddrill31",
+    "repository": "hdpi"
+    "target_path": "vendor/omni/charger/images/hdpi"
+    "revision":"main"
+  }
 ]
