@@ -1,13 +1,13 @@
 [
   {
-    "remote":"omnirom",
-    "repository": "android_vendor_omni",
+    "remote":"github",
+    "repository": "omnirom/android_vendor_omni",
     "target_path": "vendor/omni",
     "revision":"android-9.0"
   }
   {
-    "remote": "sounddrill31",
-    "repository": "hdpi"
+    "remote": "github",
+    "repository": "sounddrill31/hdpi"
     "target_path": "vendor/omni/charger/images/hdpi"
     "revision":"main"
   }
