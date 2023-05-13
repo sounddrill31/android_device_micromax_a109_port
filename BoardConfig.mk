@@ -119,6 +119,8 @@ TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/mt6320-battery/power_supply/batt
 TW_INTERNAL_STORAGE_PATH := "/sdcard"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 TW_EXTERNAL_STORAGE_PATH := "/external_sdcard"
+
+ALLOW_MISSING_DEPENDENCIES=TRUE
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
 
 BOARD_CUSTOM_BOOTIMG_MK := device/micromax/a117/custombootimg.mk
