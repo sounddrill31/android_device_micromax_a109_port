@@ -7,8 +7,8 @@
   }
   {
     "remote": "github",
-    "repository": "sounddrill31/hdpi"
-    "target_path": "vendor/omni/charger/images/hdpi"
+    "repository": "sounddrill31/hdpi",
+    "target_path": "vendor/omni/charger/images/hdpi",
     "revision":"main"
   }
 ]
