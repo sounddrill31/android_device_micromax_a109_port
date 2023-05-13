@@ -79,7 +79,7 @@ jobs:
     - name: Install OpenJDK
       uses: actions/setup-java@v3
       with:
-        distribution: 'zulu'
+        distribution: 'oracle'
         java-version: '6'
 
     - name: Setup SSH Keys
