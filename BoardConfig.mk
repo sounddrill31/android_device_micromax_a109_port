@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/micromax/a117
+DEVICE_FOLDER := device/micromax/A109
 
--include vendor/micromax/a117/BoardConfigVendor.mk
+-include vendor/micromax/A109/BoardConfigVendor.mk
 
 # board
 TARGET_BOARD_PLATFORM := mt6589
@@ -40,7 +40,7 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_G_MT6589
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
 BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/a117/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/A109/bluetooth
 
 # power
 TARGET_POWERHAL_VARIANT := cm
@@ -49,7 +49,7 @@ TARGET_POWERHAL_VARIANT := cm
 TARGET_NO_BOOTLOADER := true
 
 # EGL settings
-BOARD_EGL_CFG := device/micromax/a117/egl.cfg
+BOARD_EGL_CFG := device/micromax/A109/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
@@ -71,7 +71,7 @@ TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # mkimage to append headers
-TARGET_MKIMAGE := device/micromax/a117/mkimage
+TARGET_MKIMAGE := device/micromax/A109/mkimage
 TARGET_USE_BUILT_BOOTIMAGE := true
 
 # wifi
@@ -87,17 +87,17 @@ WIFI_DRIVER_FW_PATH_STA := "STA"
 WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/micromax/a117/ril/
+BOARD_RIL_CLASS := ../../../device/micromax/A109/ril/
 
 #nvram permission fix
-TARGET_SPECIFIC_HEADER_PATH := device/micromax/a117/include
+TARGET_SPECIFIC_HEADER_PATH := device/micromax/A109/include
 
 # allow more than one lun file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 #SEPolicy
 BOARD_SEPOLICY_DIRS += \
-    device/micromax/a117/sepolicy
+    device/micromax/A109/sepolicy
 
 #BOARD_SEPOLICY_UNION += \
 #    file_contexts \
@@ -121,4 +121,4 @@ TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 TW_EXTERNAL_STORAGE_PATH := "/external_sdcard"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
 
-BOARD_CUSTOM_BOOTIMG_MK := device/micromax/a117/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/micromax/A109/custombootimg.mk
