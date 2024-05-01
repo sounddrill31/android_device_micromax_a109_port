@@ -17,8 +17,8 @@ $(call inherit-product, device/micromax/A109/full_A109.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 540
 
 PRODUCT_NAME := omni_A109
 PRODUCT_DEVICE := A109
