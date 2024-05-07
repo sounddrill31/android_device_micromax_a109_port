@@ -45,11 +45,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/kernel:recovery/kernel
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/root/ueventd.mt6589.rc:root/ueventd.mt6589.rc \
+	$(LOCAL_PATH)/root/ueventd.mt6589.rc:root/ueventd.rc \
 	$(LOCAL_PATH)/root/init.mt6589.rc:root/init.mt6589.rc \
-	$(LOCAL_PATH)/root/init.modem.rc:root/init.modem.rc \
-	$(LOCAL_PATH)/root/init.protect.rc:root/init.protect.rc \
-	$(LOCAL_PATH)/root/init.mt6589.usb.rc:/root/init.mt6589.usb.rc
+	$(LOCAL_PATH)/root/init.mt6589.usb.rc:/root/init.mt6589.usb.rc \
+	$(LOCAL_PATH)/root/ueventd.mt6589.goldfish.rc:/root/ueventd.goldfish.rc
 
 # frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml
 
